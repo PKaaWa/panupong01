@@ -81,9 +81,8 @@
             <label for="loginPasswordInp">Password</label>
         </div>
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <button type="button" class="btn btn-primary" id="loginBtn">Login</button>
-            <!-- Add the Back to Home button here -->
-            <a href="home.html" class="btn btn-secondary" id="backToHomeBtn">Home</a>
+            <a href="pro1.html" class="btn btn-primary" id="loginBtn">Login</a> 
+            <a href="Page.html" class="btn btn-secondary" id="backToHomeBtn">Page</a>
         </div>
     </form>
 
@@ -119,7 +118,7 @@
             .then((Credential) => {
                 console.log("User logged in successfully:", Credential.user.uid);
                    
-                window.location.href = "MenuBar.html";
+                window.location.href = "pro1.html";
             })
             .catch((error) => {
                 alert(error.message);

@@ -3,7 +3,7 @@ body{
     place-items: center;
     margin: 0;
     height: 100vh;
-    background: #1100ff;
+    background: #00c3ff;
     color: #fdfcfd;
     font-family: "Poppins";
 }
@@ -13,7 +13,7 @@ body{
     width: 75vw;
     max-width: 650px;
     padding: 50px 30px 50px 20px;
-    background: #5e2c41;
+    background: #a0627f;
     border-radius: 24px;
 }
 .card img {
